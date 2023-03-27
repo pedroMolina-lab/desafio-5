@@ -11,8 +11,8 @@
   },
   "scripts": {
     "dev": "parcel serve ./src/index.html",
-    "build": "gh-pages -d ./dist",
-    "deploy": "gh-pages",
+    "build": "parcel build ./src/index.html --dist-dir build --public-url /desafio-5/",
+    "deploy": "gh-pages -d build",
     "builds-and-deploy": "npm run build && npm run deploy"
   },
   "dependencies": {
