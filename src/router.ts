@@ -51,7 +51,7 @@ export function initRouter(container: Element) {
   if(location.pathname == "/"){
     goTo("/home")
   }
-  else if(location.pathname.includes("github.io")){
+  else if(location.host.includes("github.io")){
     goTo("/home")
   }
   else{
