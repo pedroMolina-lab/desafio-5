@@ -14,7 +14,7 @@ export function initPlayGame(params) {
 
     if (counter == 0) {
       clearInterval(contador);
-        // params.goTo("/instructions");
+        params.goTo("/instructions");
     }
     console.log("hola" + counter);
   }, 1000);
